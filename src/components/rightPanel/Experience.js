@@ -18,14 +18,15 @@ export function Experience() {
           companyName={"Raja Software Labs"}
           techStack={[
             "ReactJS",
-            "TailwindCSS",
             "EmberJS",
             "Javascript",
+            "Java",
+            "RestLi",
+            "TailwindCSS",
             "SCSS",
             "HTML & CSS",
             "Rest APIs",
             "Git",
-            "JIRA",
           ]}
           projects={[
             {
@@ -47,10 +48,14 @@ export function Experience() {
             project. Currently, developing and leading{" "}
             <span className="text-slate-100">LinkedIn's</span> internal
             <span className="text-slate-100"> Trust tools </span>
-            project. In last 2 years, developed accessible and responsive 26
-            addons and integrated them accross 3 web applications. Additionally,
-            configured event tracker to track user activity, mirage to stub API
-            responses for faster UI development.
+            project to migrate the web app from{" "}
+            <span className="text-slate-100">DustJS/Java</span> Play framework
+            to EmberJS/Rest.Li. Developed accessible and responsive{" "}
+            <span className="text-slate-100">26 addons</span> and integrated
+            them accross{" "}
+            <span className="text-slate-100">3 web applications</span>.
+            Additionally, configured event tracker to track user activity,
+            mirage to stub API responses for faster UI development.
           </p>
         </ExperienceItem>
       </section>
@@ -66,18 +71,15 @@ export function Experience() {
           techStack={["PostgreSQL", "SQL", "Jenkins", "Nagios"]}
         >
           <p className="text-slate-400 text-sm">
-            Initially worked on adding features to
-            <span className="text-slate-100">
-              {" "}
-              Linkedin's Campaign Manager{" "}
-            </span>
-            project. Currently, developing and leading{" "}
-            <span className="text-slate-100">LinkedIn's</span> internal
-            <span className="text-slate-100"> Trust tools </span>
-            project. In last 2 years, developed accessible and responsive 26
-            addons and integrated them accross 3 web applications. Additionally,
-            configured event tracker to track user activity, mirage to stub API
-            responses for faster UI development.
+            As part of my internship, I contributed to a database migration
+            project focused on transitioning from{" "}
+            <span className="text-slate-100">MSSQL</span> to{" "}
+            <span className="text-slate-100">PostgreSQL</span>. My
+            responsibilities included performing database assessments, executing
+            the migration, and optimizing queries through query tuning. I
+            leveraged my knowledge of Linux to develop shell scripts and create
+            custom Nagios plugins to support the project’s infrastructure and
+            ensure its smooth execution.
           </p>
         </ExperienceItem>
       </div>
