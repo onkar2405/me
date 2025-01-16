@@ -40,22 +40,18 @@ export function Experience() {
           ]}
         >
           <p className="text-slate-400 text-sm">
-            Initially worked on adding features to
-            <span className="text-slate-100">
-              {" "}
-              Linkedin's Campaign Manager{" "}
-            </span>
-            project. Currently, developing and leading{" "}
-            <span className="text-slate-100">LinkedIn's</span> internal
-            <span className="text-slate-100"> Trust tools </span>
-            project to migrate the web app from{" "}
-            <span className="text-slate-100">DustJS/Java</span> Play framework
-            to EmberJS/Rest.Li. Developed accessible and responsive{" "}
-            <span className="text-slate-100">26 addons</span> and integrated
-            them accross{" "}
-            <span className="text-slate-100">3 web applications</span>.
-            Additionally, configured event tracker to track user activity,
-            mirage to stub API responses for faster UI development.
+            I initially contributed to the{" "}
+            <span className="text-slate-100">LinkedIn Campaign Manager</span>{" "}
+            project by adding new features. Currently, I am leading the
+            development of LinkedIn's internal{" "}
+            <span className="text-slate-100">Trust Tools project</span>,
+            focusing on migrating the web app from the{" "}
+            <span className="text-slate-100">DustJS/Java Play</span>
+            Framework to <span className="text-slate-100">EmberJS/RestLi</span>,
+            ensuring they are both accessible and responsive. Configured an
+            event tracker to monitor user activity for enhanced analytics and
+            insights. Utilized Mirage to stub API responses, accelerating UI
+            development by simulating backend data.
           </p>
         </ExperienceItem>
       </section>
